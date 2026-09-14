@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cats vs Mice Support</title>
+<meta name="description" content="Help and contact for Cats vs Mice, a tower defence game by 18 Lives.">
+<style>
+  /* No web fonts, scripts or trackers: the page about collecting nothing
+     should not itself send a visitor's address to anyone. */
+  :root {
+    color-scheme: light dark;
+    --ground: #f6f4fa;
+    --surface: #ffffff;
+    --text: #221d2c;
+    --muted: #5d5470;
+    --line: #dcd6e8;
+    --accent: #8a6412;
+    --mark: #f2c14e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #161320;
+      --surface: #241f30;
+      --text: #ece7f5;
+      --muted: #a99dc0;
+      --line: #3b3350;
+      --accent: #f2c14e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding: 40px 18px 64px;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 8px; }
+  .app { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+  h1 { font-size: 32px; line-height: 1.15; margin: 0 0 10px; text-wrap: balance; }
+  .dates { color: var(--muted); font-size: 15px; margin: 0; }
+  .summary {
+    background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--mark);
+    border-radius: 8px; padding: 16px 18px; margin: 24px 0 8px;
+  }
+  .summary p { margin: 0; }
+  h2 { font-size: 20px; margin: 34px 0 8px; }
+  p, li { max-width: 65ch; }
+  ul { padding-left: 22px; }
+  li + li { margin-top: 6px; }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="app">Cats vs Mice</p>
+    <h1>Support</h1>
+    <p class="dates">Help with the game, and how to reach us</p>
+  </header>
+
+  <div class="summary">
+    <p><strong>Need a hand?</strong> Email <a href="mailto:18LivesLLC@gmail.com?subject=Cats%20vs%20Mice%20support">18LivesLLC@gmail.com</a>. Telling us your device model and what you were doing when the problem happened helps us fix it faster.</p>
+  </div>
+
+  <h2>How does the daily streak work?</h2>
+  <p>A new daily room appears every day once you have cleared room 15 of the campaign. Beat it on the day, with at least one star, and your streak grows by one. Miss a day and the streak starts again. Losing an attempt does not break it: you can keep trying until midnight. Past days can be replayed from the calendar for fun, but they do not add to the streak.</p>
+
+  <h2>Why am I not getting streak reminders?</h2>
+  <ul>
+    <li>Check the game: <em>Settings → Streak reminders</em> should be <em>On</em>.</li>
+    <li>Check your iPhone: <em>Settings → Notifications → Cats vs Mice</em> should allow notifications.</li>
+    <li>Reminders arrive in the evening on days you have a streak and have not won yet, so there is nothing to remind you about once today is won.</li>
+  </ul>
+
+  <h2>Will I lose my progress if I delete the game?</h2>
+  <p>Yes. Your progress is saved only on your device, so deleting the app deletes it. If your device is backed up (for example with iCloud), restoring that backup brings it back.</p>
+
+  <h2>How do I start over?</h2>
+  <p>Open <em>Settings → Reset Progress</em>. This erases everything and cannot be undone.</p>
+
+  <h2>Can I change the language or make text easier to read?</h2>
+  <p>Yes. <em>Settings</em> has a language choice (English or Spanish), plus <em>Large text</em>, <em>Colourblind mode</em> and a <em>Left-handed layout</em>.</p>
+
+  <h2>Does the game collect my data?</h2>
+  <p>No. There are no accounts, ads, analytics or tracking. See the <a href="../">privacy policy</a> for details.</p>
+
+  <footer>
+    <p>© 18 Lives 2026 · <a href="../">Privacy Policy</a></p>
+  </footer>
+</main>
+</body>
+</html>
